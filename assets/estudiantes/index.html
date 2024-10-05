@@ -1,147 +1,128 @@
 <html lang="en">
   <head>
-    <!-- Código configuración -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Carga JavaScript -->
-    <script src="js/eventos.js"></script>
-
-    <!-- Hojas de estilo -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <title>InforTec Versión 06 - 2021</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>clave acceso</title>
     <style type="text/css">
+      #titulo {
+        background-color: #ff004080;
+        width: 60%;
+        padding: 20px;
+        text-align: center;
+        font-family: "verdana";
+        font-size: 24px;
+        color: aliceblue;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #titulo1 {
+        background-color: #013adf50;
+        width: 60%;
+        padding: 20px;
+        text-align: center;
+        font-family: "verdana";
+        font-size: 32px;
+        color: cornsilk;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       body {
-        background: url(img/fondo_principal.jpg);
+        background: url(img/fondo2.jpg);
         background-size: 1480px;
       }
     </style>
+    <style>
+      body {
+       
+         
+         
+          justify-content: center;
+          align-items: center;
+          height: 10vh;
+          margin: 480;
+      }
+      .container {
+          background-color: rgba(255, 255, 255, 0.8); /* Color de fondo del cuadro */
+          padding: 20px;
+          border-radius: 30px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          text-align: center;
+      }
+      .input {
+          margin: 10px 0;
+          padding: 10px;
+          width: 200px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+      .button {
+          margin-top: 20px;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 50%;
+          background-color: #4CAF50;
+          color: white;
+          cursor: pointer;
+          transition: background-color 0.3s;
+      }
+      .button:hover {
+          background-color: #45a049;
+      }
+  </style>
+
   </head>
   <body>
-    <!-- Capa  con la clase contenedor con toda la página -->
-    <div class="contenedor">
-      <div class="header">
-        <div class="nombre">InforTec0124</div>
-      </div>
 
-      <!-- Capa  con la clase contenido con la información de la página -->
-      <div class="contenido">
-        <!--<div class="img-contenido" ></div> -->
 
-        <span class="btn-hor" id="btn-horario"
-          ><center><img src="img/button_grados.png" /></center
-        ></span>
-      </div>
-
-      <div class="widget-1" id="horario">
-        <table border="0" align="center" width="90%">
-          <tr>
-            <td colspan="2" width="100%">
-              <div class="titulo-mes">Seleccione el grado</div>
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-        </table>
-        <br />
-        <table border="0" align="center" width="90%">
-          <tr align="center">
-            <td width="25%">
-              <div class="btn-clase" id="">
-                <a href="sexto/index.html"
-                  ><img src="img/button_sexto.png"
-                /></a>
-              </div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-          </tr>
-
-          <tr>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id="">
-                <a href="decimo/index.html"><img src="img/button_decimo.png" /></a>
-              </div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id="">
-                <a href="septimo/index.html"><img src="img/button_septimo.png" /></a>
-              </div>
-            </td>
-          </tr>
-        </table>
-        <br />
-        <table border="0" align="center" width="90%">
-          <tr>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id="">
-                <a href="octavo/index.html"><img src="img/button_octavo.png" /></a>
-              </div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-          </tr>
-          <tr>
-            <td width="25%">
-              <div class="btn-clase" id="">
-                <div class="btn-clase" id="">
-                  <a href="undecimo"><img src="img/button_undecimo.png" /></a>
-                </div>
-              </div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id=""></div>
-            </td>
-            <td width="25%">
-              <div class="btn-clase" id="">
-                <a href="noveno"><img src="img/button_noveno.png" /></a>
-              </div>
-            </td>
-          </tr>
-        </table>
-        <br />
-      </div>
-      <div class="area5" id="c_area5">
-        <div id="btn-horario2">
-          <span id="fuentec">Grados</span>
-        </div>
-        <div id="espacio"></div>
-        <div id="ver_eventos">
-          <span id="fuentec" onclick="funcion_eventos()">Eventos</span>
-        </div>
-        <!-- <span class="btn-hor2" id="btn-horario2"><img src="img/btn_calendario2.png"></span>
-        <span class="espacio" id="espacio1"></span>
-        <span class="ver_eventos" id="ver_eventos1"><img src="img/eventos.png"></span>-->
-      </div>
+    <div id="titulo1">
+      <b id="negrita">InforTec <br />Grado Sexto</b>
     </div>
+    <br />
+    <div id="titulo">
+      Estudiante digite la <b id="negrita">contraseña</b> para ingresar a las
+      actividades de InforTec.
 
-    <!-- Cargar archivos js-->
-    <script src="js/micodigo.js"></script>
+      <form name="formclave">
+        <input type="password" name="clave" />
+
+        <input type="button" value="Acceder" onclick="acceso()" />
+        <br /><br />
+      </form>
+    </div>
+    <script src="js/script.js"></script>
   </body>
+  
+  
+  
+    
+  
+<body>
+<div class="container">
+<h1>Sistema de Inventario</h1>
+<label for="usuario">Usuario:</label><br>
+<input type="text" id="usuario" class="input"><br>
+<label for="contraseña">Contraseña:</label><br>
+<input type="password" id="contraseña" class="input"><br>
+<button class="button" onclick="validar()">Ingresar</button>
+</div>
+
+<script>
+function validar() {
+    const usuario = document.getElementById('usuario').value;
+    const contraseña = document.getElementById('contraseña').value;
+    // Cambia estos valores según lo que desees
+    const usuarioCorrecto = "admin";
+    const contraseñaCorrecta = "1234";
+
+    if (usuario === usuarioCorrecto && contraseña === contraseñaCorrecta) {
+        window.location.href = 'confirmacion.html';
+    } else {
+        alert('Usuario o contraseña incorrectos.');
+    }
+}
+</script>
+</body>
+
 </html>
